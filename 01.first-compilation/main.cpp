@@ -4,7 +4,7 @@ using namespace irr;
 
 int main(void)
 {
-    IrrlichtDevice *device = createDevice(video::EDT_OPENGL, core::dimension2d<u32>(860,640));
+    IrrlichtDevice *device = createDevice(video::EDT_OPENGL);
     video::IVideoDriver *driver = device->getVideoDriver();
 
     while(device->run())
